@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(images/pattern-background-desktop.svg);
+    font-family: sans-serif;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+}
+
+.container{
+    margin-top: 10vh;
+    margin-left:30vw;
+    max-width: 450px;
+    /* border: solid black 1px; */
+    position: absolute;
+    background-color: white;
+    border-radius:20px ;
+    overflow: hidden;
+
+}
+.container p{
+    color: hsl(224, 23%, 55%);
+}
+.content{
+    padding: 10%;
+    
+    
+}   
+
+    .content h1{
+        text-align: center;
+        color: hsl(223, 47%, 23%);
+        margin-bottom: 5%;
+        font-size: 32px;
+    }
+    .content p{
+        text-align: center;
+        color: hsl(224, 23%, 55%);
+        font-size: 16px;
+    }
+.card-content{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    background-color: hsl(225, 100%, 98%);
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+    .card-content h2{
+        font-weight: 900;
+        color: hsl(223, 47%, 23%);
+        font-size: 20px;
+    }
+    .card-content a{
+        color:hsl(245, 75%, 52%);
+        font-weight: 900;
+    }
+    .card-content a:hover{
+        color: hsl(224, 23%, 55%);
+        font-weight: 900;
+}
+
+
+ .text-content p{
+    text-align: left;
+    
+}
+
+.payment{
+    background-color: hsl(245, 75%, 52%);
+    padding: 5%;
+    width: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    display: block;
+}
+
+.cancel{
+    /* background-color: hsl(245, 75%, 52%); */
+    padding: 5%;
+    width: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    display: block;
+    font-weight: 700;
+}
+
+.payment:hover{
+    background-color:  hsl(224, 23%, 55%);
+
+}
+.cancel:hover{
+    color:hsl(223, 47%, 23%);
+}
+
+@media only screen and (max-width:425px ) {
+    body{
+        background-image:url(images/pattern-background-desktop.svg);
+        font-family: sans-serif;
+        font-size: 16px;
+        background-color: hsl(225, 100%, 94%);
+   
+    }
+    .container{
+        max-width: 85%;
+        margin-top: 5vh;
+        margin-left:5vw;
+    }
+
+
+        .content h1{
+            margin-bottom: 5%;
+            font-size: 23px;
+        }
+}
